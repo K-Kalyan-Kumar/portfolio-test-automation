@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-test-automation",
+  "version": "1.0.0",
+  "description": "Page Object Model (POM) test automation for Kalyan's Portfolio website using Playwright and JavaScript",
+  "main": "tests/portfolioPage.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:main": "playwright test -- tests/portfolioTest.spec.js",
+    "test:extended": "playwright test -- tests/portfolioTest-Extended.spec.js",
+    "test:standalone": "node tests/runPortfolioTest.js"
+  },
+  "keywords": [
+    "playwright",
+    "test-automation",
+    "pom",
+    "page-object-model",
+    "e2e-testing",
+    "javascript"
+  ],
+  "author": "Kalyan Kumar",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.7.0"
+  }
+}
